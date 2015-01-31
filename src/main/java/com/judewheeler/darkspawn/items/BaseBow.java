@@ -24,7 +24,11 @@ public abstract class BaseBow extends ItemBow {
 		setTextureName(DarkspawnMod.MODID + ":" + name);
 		
 		// TODO With real bows we want "name_pulling_0", "name_pulling_1", "name_pulling_2" 
-		this.bowPullIconNameArray = new String[] { name, name, name };
+		this.bowPullIconNameArray = new String[] {
+				name + "_pulling_0",
+				name + "_pulling_1",
+				name + "_pulling_2"
+		};
 	}
 		
 	@SideOnly(Side.CLIENT)

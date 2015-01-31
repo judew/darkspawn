@@ -6,13 +6,14 @@ import cpw.mods.fml.common.registry.GameRegistry;
  * Darkspawn items go here.
  * 
  * @author judewheeler
+ * @author Willie Wheeler
  */
 public class DarkspawnItems {
 	public static final ItemBattery battery = new ItemBattery();
-	public static final ItemDemonPickaxe demon_pickaxe = new ItemDemonPickaxe(DarkspawnMaterials.demos, "demon_pickaxe");
-	public static final ItemDemonSword demon_sword = new ItemDemonSword(DarkspawnMaterials.demos, "demon_sword");
-	public static final ItemRainbowShot rainbow_shot = new ItemRainbowShot("rainbow_shot");
-	public static final ItemEmeraldSword emerald_sword = new ItemEmeraldSword(DarkspawnMaterials.demos, "emerald_sword");
+	public static final ItemDemonPickaxe demon_pickaxe = new ItemDemonPickaxe();
+	public static final ItemDemonSword demon_sword = new ItemDemonSword();
+	public static final ItemRainbowShot rainbow_shot = new ItemRainbowShot();
+	public static final ItemEmeraldSword emerald_sword = new ItemEmeraldSword();
 	
 	public static void registerItems() {
 		GameRegistry.registerItem(battery, "Battery");

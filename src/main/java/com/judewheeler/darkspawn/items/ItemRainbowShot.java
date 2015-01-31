@@ -1,6 +1,6 @@
 package com.judewheeler.darkspawn.items;
 
-public class ItemRainbowShot extends DarkspawnBow {
+public class ItemRainbowShot extends BaseBow {
 
 	public ItemRainbowShot() {
 		super("rainbow_shot");

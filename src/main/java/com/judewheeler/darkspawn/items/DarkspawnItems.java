@@ -9,8 +9,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
  * @author Willie Wheeler
  */
 public class DarkspawnItems {
-	
-	// Items
 	public static final ItemBattery battery = new ItemBattery();
 	public static final ItemDemonPickaxe demon_pickaxe = new ItemDemonPickaxe();
 	public static final ItemDemonSword demon_sword = new ItemDemonSword();

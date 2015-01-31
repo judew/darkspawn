@@ -1,12 +1,12 @@
 package com.judewheeler.darkspawn.items;
 
-import net.minecraft.item.ItemSword;
+import net.minecraft.item.ItemPickaxe;
 
 import com.judewheeler.darkspawn.DarkspawnMod;
 
-public abstract class DarkspawnSword extends ItemSword {
+public abstract class BasePickaxe extends ItemPickaxe {
 	
-	public DarkspawnSword(ToolMaterial material, String name) {
+	public BasePickaxe(ToolMaterial material, String name) {
 		super(material);
 		setUnlocalizedName(DarkspawnMod.MODID + "_" + name);
 		setTextureName(DarkspawnMod.MODID + ":" + name);

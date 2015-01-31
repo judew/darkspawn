@@ -12,13 +12,13 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 //http://stackoverflow.com/questions/27305013/custom-bow-pulling-animation-not-showing-minecraft-forge-for-1-7-10
-public abstract class DarkspawnBow extends ItemBow {
+public abstract class BaseBow extends ItemBow {
 	private String name;
 	
 	// Currently just using RPG for all icons, since we don't really "pull" an RPG.
 	private final String[] bowPullIconNameArray;
 	
-	public DarkspawnBow(String name) {
+	public BaseBow(String name) {
 		this.name = name;
 		setUnlocalizedName(DarkspawnMod.MODID + "_" + name);
 		setTextureName(DarkspawnMod.MODID + ":" + name);

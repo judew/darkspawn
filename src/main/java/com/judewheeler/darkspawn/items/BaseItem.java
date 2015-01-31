@@ -5,9 +5,9 @@ import net.minecraft.item.Item;
 
 import com.judewheeler.darkspawn.DarkspawnMod;
 
-public abstract class DarkspawnItem extends Item {
+public abstract class BaseItem extends Item {
 	
-	public DarkspawnItem(String name, CreativeTabs creativeTab) {
+	public BaseItem(String name, CreativeTabs creativeTab) {
 		setUnlocalizedName(DarkspawnMod.MODID + "_" + name);
 		setTextureName(DarkspawnMod.MODID + ":" + name);
 		setCreativeTab(creativeTab);
